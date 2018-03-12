@@ -1,9 +1,10 @@
 "This is a test file with nothing here."
-from MainCloset import *
+from Shirt import *
 from Graphics import *
 def main():
     """makes a window for the program"""
-
+    shirt = Shirt(300, 300, "blue", win)
+    shirt.drawShirt(300,300,"blue",win)
     win.getMouse()
     win.close()
 
